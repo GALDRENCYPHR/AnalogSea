@@ -1,0 +1,87 @@
+body{
+	background-color: skyblue;
+}
+h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	background-color: white;
+	margin-top: auto;
+	margin-left: 450px;
+	margin-right: 450px;
+
+}
+.img{
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 45%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#email{
+	padding: 10px 25px ;
+	width: 320px;	
+	margin-left: 38px;
+}
+#password{
+	padding: 10px 25px ;
+	width: 320px;	
+	margin-left: 38px;
+}
+button{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    border-bottom-style: solid;
+	border-bottom-width: 13px;
+	border-left-style: solid;
+	border-left-width: 13px;
+    color: white;
+    margin-top: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+    width: 320px;	
+    margin-left: 27px;
+}
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 320px;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.h2 {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#e{
+	margin-left: 20px;
+}
+#p{
+	margin-left: 20px;
+}
+.ana{
+	margin-left: 80px;
+	}
